@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" a function to create async and await"""
+""" A function to create async and await"""
 import asyncio
 import random
 
