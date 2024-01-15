@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
+"""function to run a measure runtime of asyncio"""
 import time
 from asyncio import run
 wait_n = __import__('1-concurrent_coroutines').wait_n
-"""function to run a measure runtime of asyncio"""
 
 
 def measure_time(n: int, max_delay: int) -> float:
